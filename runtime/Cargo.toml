@@ -104,7 +104,7 @@ default-features = false
 package = 'frame-system'
 version = '2.0.0-alpha.5'
 
-[dependencies.template]
+[dependencies.certificate]
 default-features = false
 package = 'pallet-certificate'
 path = '../pallets/certificate'
