@@ -239,8 +239,7 @@ construct_runtime!(
 		Balances: balances::{Module, Call, Storage, Config<T>, Event<T>},
 		TransactionPayment: transaction_payment::{Module, Storage},
 		Sudo: sudo::{Module, Call, Config<T>, Storage, Event<T>},
-		// Used for the module template in `./template.rs`
-		CertificateModule: template::{Module, Call, Storage, Event<T>},
+		CertificateModule: certificate::{Module, Call, Storage, Event<T>},
 	}
 );
 
