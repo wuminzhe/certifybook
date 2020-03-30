@@ -1,11 +1,11 @@
 [package]
 authors = ['Anonymous']
-description = 'FRAME pallet template'
+description = 'CertifyBook Certificate Pallet'
 edition = '2018'
-homepage = 'https://substrate.dev'
+homepage = 'https://certifybook.com'
 license = 'Unlicense'
-name = 'pallet-template'
-repository = 'https://github.com/paritytech/substrate/'
+name = 'pallet-certificate'
+repository = 'https://github.com/wuminzhe/certifybook/'
 version = '2.0.0-alpha.5'
 
 [dependencies.codec]

@@ -106,8 +106,8 @@ version = '2.0.0-alpha.5'
 
 [dependencies.template]
 default-features = false
-package = 'pallet-template'
-path = '../pallets/template'
+package = 'pallet-certificate'
+path = '../pallets/certificate'
 version = '2.0.0-alpha.5'
 
 [dependencies.timestamp]
@@ -150,5 +150,5 @@ std = [
     'system/std',
     'timestamp/std',
     'transaction-payment/std',
-    'template/std',
+    'certificate/std',
 ]
