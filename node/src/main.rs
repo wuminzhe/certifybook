@@ -1,4 +1,4 @@
-//! Substrate Node Template CLI library.
+//! CertifyBook Node CLI library.
 #![warn(missing_docs)]
 
 mod chain_spec;
@@ -9,12 +9,12 @@ mod command;
 
 fn main() -> sc_cli::Result<()> {
 	let version = sc_cli::VersionInfo {
-		name: "Substrate Node",
+		name: "CertifyBook Node",
 		commit: env!("VERGEN_SHA_SHORT"),
 		version: env!("CARGO_PKG_VERSION"),
-		executable_name: "node-template",
+		executable_name: "certifybook",
 		author: "Anonymous",
-		description: "Template Node",
+		description: "CertifyBook Node",
 		support_url: "support.anonymous.an",
 		copyright_start_year: 2017,
 	};
